@@ -61,3 +61,12 @@ First, clone this repository to your local machine:
 7. **run streamlit app**
    ```bash
    streamlit run app.py
+   
+8. **open url http://localhost:8501/**
+
+9. **upload image and the app will automatically detect the license plate in the image**
+
+### Demo
+
+![alt text](https://github.com/hit93/License_plate_detection/blob/main/demo.png)
+   
