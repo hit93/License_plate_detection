@@ -1,4 +1,4 @@
-# YOLOv8 Training and Results Analysis
+# License plate detection using YOLO
 
 This repository demonstrates the use of YOLOv8 for training a model on a car license plate detection dataset. It includes code for training, analyzing training metrics such as losses and mAP, and visualizing results.
 
