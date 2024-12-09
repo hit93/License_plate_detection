@@ -35,8 +35,14 @@ The dataset for car license plate detection can be downloaded from Kaggle:
 [Car Plate Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection?resource=download)
 
 ---
+## Clone the Repository
+First, clone this repository to your local machine:
+git clone https://github.com/hit93/License_plate_detection.git
+cd yolov8-license-plate-detection
 
 ## Setting Up the Virtual Environment
+
+
 
 1. **Install Python**
    - Make sure Python 3.7 or later is installed on your system. You can download it from [python.org](https://www.python.org/).
