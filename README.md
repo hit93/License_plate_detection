@@ -40,7 +40,7 @@ First, clone this repository to your local machine:
    ```bash
    git clone https://github.com/hit93/License_plate_detection.git
    cd yolov8-license-plate-detection
-
+   ```
 ## Setting Up the Virtual Environment
 
 1. **Install Python**
