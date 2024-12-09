@@ -37,12 +37,11 @@ The dataset for car license plate detection can be downloaded from Kaggle:
 ---
 ## Clone the Repository
 First, clone this repository to your local machine:
+   ```bash
    git clone https://github.com/hit93/License_plate_detection.git
    cd yolov8-license-plate-detection
 
 ## Setting Up the Virtual Environment
-
-
 
 1. **Install Python**
    - Make sure Python 3.7 or later is installed on your system. You can download it from [python.org](https://www.python.org/).
@@ -52,10 +51,13 @@ First, clone this repository to your local machine:
    python -m venv yolov8-env
 
 3. **Activate the Virtual Environment**
+   ```bash
    yolov8-env\Scripts\activate
    
-4. **install dependencies**
+5. **install dependencies**
+   ```bash
    pip install -r requirements.txt
    
-6. **run streamlit app**
+7. **run streamlit app**
+   ```bash
    streamlit run app.py
