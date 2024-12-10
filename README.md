@@ -18,7 +18,7 @@ YOLO (You Only Look Once) is a state-of-the-art, real-time object detection algo
 - **Better Performance**: Higher mAP and lower latency compared to earlier versions.
 
 ---
-
+### Table summarizing each loss and metric
 | **Name**                 | **Explanation**                                                                                       | **Objective**                                      | **Typical Range** |
 |--------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------|--------------------|
 | **`train/box_loss`**     | Measures the error in predicted bounding box coordinates relative to ground truth (e.g., IoU loss).   | Improve bounding box accuracy.                   | 0.02 - 0.1         |
