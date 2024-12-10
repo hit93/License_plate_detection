@@ -19,6 +19,17 @@ YOLO (You Only Look Once) is a state-of-the-art, real-time object detection algo
 
 ---
 
+| **Name**                 | **Explanation**                                                                                       | **Objective**                                      | **Typical Range** |
+|--------------------------|-------------------------------------------------------------------------------------------------------|---------------------------------------------------|--------------------|
+| **`train/box_loss`**     | Measures the error in predicted bounding box coordinates relative to ground truth (e.g., IoU loss).   | Improve bounding box accuracy.                   | 0.02 - 0.1         |
+| **`train/cls_loss`**     | Measures the error in classifying the object inside a bounding box.                                   | Improve classification accuracy.                 | 0.01 - 0.05        |
+| **`train/dfl_loss`**     | Distribution Focal Loss; improves bounding box regression by modeling coordinate distributions.       | Enhance precision in bounding box localization.  | 0.005 - 0.02       |
+| **`metrics/precision(B)`** | Precision: Fraction of correct positive detections out of all predicted positives.                   | Avoid false positives.                           | 0.85 - 0.95        |
+| **`metrics/recall(B)`**  | Recall: Fraction of correct positive detections out of all actual positives.                         | Avoid missing objects (false negatives).         | 0.75 - 0.90        |
+| **`metrics/mAP50(B)`**   | Mean Average Precision at 50% IoU threshold.                                                        | Measure detection accuracy at standard IoU.      | 0.85 - 0.95        |
+| **`metrics/mAP50-95(B)`**| Mean Average Precision averaged across IoU thresholds (50%-95%, step 5%).                            | Measure comprehensive detection accuracy.        | 0.55 - 0.75        |
+
+
 ## Libraries Used
 
 - **os**: Used for interacting with the file system to manage directories and files.
